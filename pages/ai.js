@@ -70,7 +70,7 @@ const Ai = () => {
                 margin: '5px 0',
               }}
             >
-              <strong>{msg.role === 'user' ? randomName : 'Emilia'}:</strong>
+              <strong>{msg.role === 'user' ? randomName : 'Hutao'}:</strong>
               <p>{msg.text}</p>
             </div>
           ))}
@@ -81,7 +81,7 @@ const Ai = () => {
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Ask Emilia something..."
+            placeholder="Ask Hutao something..."
             style={{ flex: 1, marginRight: '10px' }}
             required
           />
