@@ -14,7 +14,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
             <Link href="/about">About us</Link>
           </li>
           <li>
-            <Link href="/ai">Chat with emilia</Link>
+            <Link href="/ai">Chat with Hu Tao</Link>
           </li>
           <li>
             <Link href="/docs">Documentation</Link>
