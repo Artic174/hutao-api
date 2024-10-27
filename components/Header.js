@@ -9,7 +9,7 @@ const Header = ({ toggleSidebar, toggleTheme, theme }) => {
       <button onClick={toggleSidebar} className={styles.menuButton}>☰</button>
       <div className={styles.logo}>Hu Tao's API</div>
       <div className={styles.icons}>
-        <a href="https://github.com/cifumo" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Artic174" target="_blank" rel="noopener noreferrer">
           <FaGithub className={styles.icon} />
         </a>
         <button onClick={toggleTheme} className={styles.themeButton}>
